@@ -26,6 +26,7 @@ void list_delete(List *list){
 void list_add(List *list, void *data){
   Node* newNode = (struct _node*)malloc(sizeof(struct _node));
   newNode->data = data;
+  newNode->next = 0;
   if (list->_head == 0) {
     list->_head = newNode;
   }else{

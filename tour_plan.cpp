@@ -16,7 +16,9 @@ void plan_print(TourPlan *plan){}
  * Frees memory allocated by the plan (and its child elements)
  * (hint: some structure contain lists, you already implemented a list cleanup)
  */
-void plan_delete(TourPlan *plan){}
+void plan_delete(TourPlan *plan){
+  
+}
 
 /**
  * Calculates the number of presents a kid receives based on how well he or she behaved
